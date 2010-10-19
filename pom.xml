@@ -39,6 +39,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <activateSigning>${env.ACTIVATE_SIGNING}</activateSigning>
   </properties>
 
   <profiles>
@@ -77,6 +78,12 @@
     </profile>
     <profile>
       <id>signing-profile</id>
+      <activation>
+        <property>
+          <name>activateSigning</name>
+          <value>true</value>
+        </property>
+      </activation>
       <build>
         <plugins>
           <plugin>
