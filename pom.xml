@@ -3,7 +3,7 @@
   <groupId>org.josefson.hugo.maven.releasetest</groupId>
   <artifactId>profiles</artifactId>
   <packaging>jar</packaging>
-  <version>0.1.10</version>
+  <version>0.1.11-SNAPSHOT</version>
   <name>Release test with profiles</name>
 
   <scm>
