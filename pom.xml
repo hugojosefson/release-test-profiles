@@ -9,7 +9,7 @@
 
   <scm>
     <connection>scm:git:git://github.com/hugojosefson/release-test-profiles.git</connection>
-    <developerConnection>scm:git:git://github.com/hugojosefson/release-test-profiles.git</developerConnection>
+    <developerConnection>scm:git:ssh://git@github.com/hugojosefson/release-test-profiles.git</developerConnection>
   </scm>
 
   <dependencies>
