@@ -5,8 +5,7 @@
   <artifactId>profiles</artifactId>
   <packaging>jar</packaging>
   <version>0.1.0-SNAPSHOT</version>
-  <name>Maven Quick Start Archetype</name>
-  <url>http://maven.apache.org</url>
+  <name>Release test with profiles</name>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
